@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/visualstudiorepos/studentinfomanagementsystem/opendatabase.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "88a0f5c0537a38c71c1d30f82a16b1391b1fdb5646508ceed04d92bd9fc29c5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudiorepos/studentinfomanagementsystem/databaseopt.h"
+          },
+          "hashes": {
+            "sha-256": "837743c0c8ba5669eb4cdd967d649a3d3902229763af53664e3b5fb5a7f75153"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudiorepos/studentinfomanagementsystem/resouces/sqlite3.h"
+          },
+          "hashes": {
+            "sha-256": "10ff8c8842b5e6bb0555f39ce946b77d0f84acc9e33895d22242444d91900571"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudiorepos/studentinfomanagementsystem/student.h"
+          },
+          "hashes": {
+            "sha-256": "a7dca9a8d60d98be006180f43e41ce5d4f6222fc51b57c83184dae32f3dc8709"
+          }
+        }
+      ]
+    }
+  ]
+}
